@@ -1,0 +1,101 @@
+[
+    {
+        "model": "digestapi.review",
+        "pk": 1,
+        "fields": {
+            "book_id": 1,
+            "user_id": 2,
+            "rating": 9,
+            "content": "An excellent science fiction novel with deep themes and compelling characters.",
+            "date_created": "2023-07-29T10:00:00Z"
+        }
+    },
+    {
+        "model": "digestapi.review",
+        "pk": 2,
+        "fields": {
+            "book_id": 2,
+            "user_id": 3,
+            "rating": 10,
+            "content": "A timeless classic that explores themes of racism and morality.",
+            "date_created": "2023-07-29T11:00:00Z"
+        }
+    },
+    {
+        "model": "digestapi.review",
+        "pk": 3,
+        "fields": {
+            "book_id": 3,
+            "user_id": 4,
+            "rating": 8,
+            "content": "A thought-provoking dystopian novel that remains relevant today.",
+            "date_created": "2023-07-29T12:00:00Z"
+        }
+    },
+    {
+        "model": "digestapi.review",
+        "pk": 4,
+        "fields": {
+            "book_id": 4,
+            "user_id": 5,
+            "rating": 7,
+            "content": "A charming romance with witty dialogue and enduring characters.",
+            "date_created": "2023-07-29T13:00:00Z"
+        }
+    },
+    {
+        "model": "digestapi.review",
+        "pk": 5,
+        "fields": {
+            "book_id": 5,
+            "user_id": 6,
+            "rating": 9,
+            "content": "A brilliant depiction of the American Dream gone awry.",
+            "date_created": "2023-07-29T14:00:00Z"
+        }
+    },
+    {
+        "model": "digestapi.review",
+        "pk": 6,
+        "fields": {
+            "book_id": 6,
+            "user_id": 1,
+            "rating": 6,
+            "content": "A dense and challenging read, but rewarding for those who persevere.",
+            "date_created": "2023-07-29T15:00:00Z"
+        }
+    },
+    {
+        "model": "digestapi.review",
+        "pk": 7,
+        "fields": {
+            "book_id": 7,
+            "user_id": 2,
+            "rating": 8,
+            "content": "A unique coming-of-age story with a distinctive voice.",
+            "date_created": "2023-07-29T16:00:00Z"
+        }
+    },
+    {
+        "model": "digestapi.review",
+        "pk": 8,
+        "fields": {
+            "book_id": 8,
+            "user_id": 3,
+            "rating": 9,
+            "content": "An epic fantasy novel with rich world-building and complex characters.",
+            "date_created": "2023-07-29T17:00:00Z"
+        }
+    },
+    {
+        "model": "digestapi.review",
+        "pk": 9,
+        "fields": {
+            "book_id": 9,
+            "user_id": 4,
+            "rating": 7,
+            "content": "A thrilling historical fiction novel with a fast-paced plot.",
+            "date_created": "2023-07-29T18:00:00Z"
+        }
+    }
+]
