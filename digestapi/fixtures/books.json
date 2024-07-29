@@ -1,0 +1,112 @@
+[
+    {
+        "model": "digestapi.book",
+        "pk": 1,
+        "fields": {
+            "title": "Ender's Game",
+            "author": "Orson Scott Card",
+            "isbn_number": "0-312-93208-1",
+            "cover_image": "https://upload.wikimedia.org/wikipedia/en/e/e4/Ender%27s_game_cover_ISBN_0312932081.jpg",
+            "user_id": 1
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 2,
+        "fields": {
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "isbn_number": "978-0-06-112008-4",
+            "cover_image": "https://upload.wikimedia.org/wikipedia/en/7/79/To_Kill_a_Mockingbird.JPG",
+            "user_id": 2
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 3,
+        "fields": {
+            "title": "1984",
+            "author": "George Orwell",
+            "isbn_number": "978-0-452-28423-4",
+            "cover_image": "https://upload.wikimedia.org/wikipedia/en/c/c3/1984first.jpg",
+            "user_id": 3
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 4,
+        "fields": {
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "isbn_number": "978-0-19-283355-4",
+            "cover_image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/PrideAndPrejudiceTitlePage.jpg",
+            "user_id": 4
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 5,
+        "fields": {
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "isbn_number": "978-0-7432-7356-5",
+            "cover_image": "https://upload.wikimedia.org/wikipedia/en/f/f7/TheGreatGatsby_1925jacket.gif",
+            "user_id": 5
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 6,
+        "fields": {
+            "title": "Moby-Dick",
+            "author": "Herman Melville",
+            "isbn_number": "978-0-14-243724-7",
+            "cover_image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Moby-Dick_FE_title_page.jpg",
+            "user_id": 6
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 7,
+        "fields": {
+            "title": "The Catcher in the Rye",
+            "author": "J.D. Salinger",
+            "isbn_number": "978-0-316-76948-0",
+            "cover_image": "https://upload.wikimedia.org/wikipedia/en/3/32/Rye_catcher.jpg",
+            "user_id": 1
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 8,
+        "fields": {
+            "title": "Brave New World",
+            "author": "Aldous Huxley",
+            "isbn_number": "978-0-06-085052-4",
+            "cover_image": "https://upload.wikimedia.org/wikipedia/en/6/62/BraveNewWorld_FirstEdition.jpg",
+            "user_id": 2
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 9,
+        "fields": {
+            "title": "War and Peace",
+            "author": "Leo Tolstoy",
+            "isbn_number": "978-0-14-303999-0",
+            "cover_image": "https://upload.wikimedia.org/wikipedia/commons/b/ba/War_and_Peace%2C_1st_ed%2C_1869.jpg",
+            "user_id": 3
+        }
+    },
+    {
+        "model": "digestapi.book",
+        "pk": 10,
+        "fields": {
+            "title": "The Hobbit",
+            "author": "J.R.R. Tolkien",
+            "isbn_number": "978-0-618-00221-3",
+            "cover_image": "https://upload.wikimedia.org/wikipedia/en/3/30/Hobbit_cover.JPG",
+            "user_id": 4
+        }
+    }
+]
