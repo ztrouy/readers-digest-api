@@ -1,0 +1,236 @@
+[
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 1,
+        "fields": {
+            "book_id": 1,
+            "category_id": 1,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 2,
+        "fields": {
+            "book_id": 2,
+            "category_id": 2,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 3,
+        "fields": {
+            "book_id": 3,
+            "category_id": 3,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 4,
+        "fields": {
+            "book_id": 4,
+            "category_id": 4,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 5,
+        "fields": {
+            "book_id": 5,
+            "category_id": 8,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 6,
+        "fields": {
+            "book_id": 6,
+            "category_id": 2,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 7,
+        "fields": {
+            "book_id": 7,
+            "category_id": 8,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 8,
+        "fields": {
+            "book_id": 8,
+            "category_id": 3,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 9,
+        "fields": {
+            "book_id": 9,
+            "category_id": 7,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 10,
+        "fields": {
+            "book_id": 10,
+            "category_id": 6,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 11,
+        "fields": {
+            "book_id": 1,
+            "category_id": 3,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 12,
+        "fields": {
+            "book_id": 2,
+            "category_id": 4,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 13,
+        "fields": {
+            "book_id": 3,
+            "category_id": 8,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 14,
+        "fields": {
+            "book_id": 4,
+            "category_id": 7,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 15,
+        "fields": {
+            "book_id": 5,
+            "category_id": 9,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 16,
+        "fields": {
+            "book_id": 6,
+            "category_id": 5,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 17,
+        "fields": {
+            "book_id": 7,
+            "category_id": 4,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 18,
+        "fields": {
+            "book_id": 8,
+            "category_id": 6,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 19,
+        "fields": {
+            "book_id": 9,
+            "category_id": 2,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 20,
+        "fields": {
+            "book_id": 10,
+            "category_id": 5,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 21,
+        "fields": {
+            "book_id": 1,
+            "category_id": 8,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 22,
+        "fields": {
+            "book_id": 2,
+            "category_id": 6,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 23,
+        "fields": {
+            "book_id": 3,
+            "category_id": 7,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 24,
+        "fields": {
+            "book_id": 4,
+            "category_id": 5,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 25,
+        "fields": {
+            "book_id": 5,
+            "category_id": 10,
+            "date_created": "2023-07-29"
+        }
+    },
+    {
+        "model": "digestapi.bookcategory",
+        "pk": 26,
+        "fields": {
+            "book_id": 6,
+            "category_id": 11,
+            "date_created": "2023-07-29"
+        }
+    }
+]
