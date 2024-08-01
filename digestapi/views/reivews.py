@@ -43,9 +43,6 @@ class ReviewViewSet(viewsets.ViewSet):
             content = content
         )
 
-        # Save the review
-        Review.save()
-
         try:
             # Serialize the objects, and pass request as context
             serializer = ReviewSerializer(review, context={'request': request})
