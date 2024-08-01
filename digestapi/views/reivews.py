@@ -47,10 +47,13 @@ class ReviewViewSet(viewsets.ViewSet):
     def retrieve(self, request, pk=None):
         try:
             # Get the requested review
+            review = Review.objects.get(pk=pk)
 
             # Serialize the object (make sure to pass the request as context)
+            serializer = ReviewSerializer(review, context={'request': request})
 
             # Return the review with 200 status code
+            return Response(serializer.data)
 
         except Review.DoesNotExist:
             return Response(status=status.HTTP_404_NOT_FOUND)
