@@ -7,7 +7,7 @@ class ReviewSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Review
-        fields = ['id', 'book', 'user', 'rating', 'comment', 'date_posted', 'is_owner']
+        fields = ['id', 'book', 'user', 'rating', 'content', 'date_created', 'is_owner']
         read_only_fields = ['user']
 
     def get_is_owner(self, obj):
@@ -32,14 +32,26 @@ class ReviewViewSet(viewsets.ViewSet):
     def create(self, request):
         # Create a new instance of a review and assign property
         # values from the request payload using `request.data`
+        book_id = request.data.get('book_id')
+        rating = request.data.get('rating')
+        content = request.data.get('content')
 
+        review = Review.objects.create(
+            user = request.user,
+            book_id = book_id,
+            rating = rating,
+            content = content
+        )
 
         # Save the review
+        Review.save()
 
         try:
             # Serialize the objects, and pass request as context
+            serializer = ReviewSerializer(review, context={'request': request})
 
             # Return the serialized data with 201 status code
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
 
         except Exception as ex:
             return Response(None, status=status.HTTP_400_BAD_REQUEST)
