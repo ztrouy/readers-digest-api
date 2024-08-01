@@ -20,11 +20,13 @@ class ReviewViewSet(viewsets.ViewSet):
 
     def list(self, request):
         # Get all reviews
+        reviews = Review.objects.all()
 
         # Serialize the objects, and pass request to determine owner
         serializer = ReviewSerializer(reviews, many=True, context={'request': request})
 
         # Return the serialized data with 200 status code
+        return Response(serializer.data)
 
 
     def create(self, request):
